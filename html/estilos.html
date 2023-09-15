@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        body{
+
+            background-color: rgb(245, 169, 70);
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        *{
+    margin: 0;
+            }
+        h1{
+    font-family: 'Roboto', sans-serif;
+          }
+
+          /* selector por id */
+          #word_one{
+            font-size: 30px;
+            color: purple;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+          /* selector por clase */
+          .word_group{
+            background-color: gray;
+            color: #fff;
+            margin: 10px;
+
+
+          }
+        
+          #list_options{
+            border: 5px solid red;
+            margin: 10px;
+            border-radius: 10px;
+          }
+           /* selector por atributo */
+           [disabled]{
+            background-color: aqua;
+           }
+           /* pseudoclase */
+           .word_group:hover{
+            background-color: yellow;
+           }
+
+    </style>
+</head>
+<body>
+    <h1 style="color: brown; background-color: aqua; ">BIENVENIDOS</h1>
+    <a href="/clasesviernes.html">VOLVER ATRAS</a>
+
+    <ul id="list_options">
+        <li id="word_one" class="word_group">palabra 1</li>
+        <li id="word_tow" class="word_group">palabra 2</li>
+        <li id="word_three" class="word_group">palabra 3</li>
+        <li id="word_four" class="word_group">palabra 4</li>
+        <li id="word_five" class="word_group">palabra 5</li>
+    </ul>
+    <input type="text" disabled>
+    <input type="text">
+    
+</body>
+</html>

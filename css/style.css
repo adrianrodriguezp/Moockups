@@ -1,0 +1,40 @@
+/* selector universal */
+
+
+*{
+    margin: 0;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+ /* selector por id */
+ #word_one{
+    font-size: 30px;
+    color: purple;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+
+/* selector por clase */
+.word_group{
+  background-color: gray;
+  color: #fff;
+  margin: 10px;
+
+
+}
+
+#list_options{
+  border: 5px solid red;
+  margin: 10px;
+  border-radius: 10px;
+}
+ /* selector por atributo */
+ [disabled]{
+  background-color: aqua;
+ }
+ /* pseudoclase */
+ .word_group:hover{
+  background-color: yellow;
+ }
