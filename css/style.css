@@ -38,3 +38,10 @@ h1{
  .word_group:hover{
   background-color: yellow;
  }
+
+ #title_box{
+  color: blue;
+  font-family: 'Roboto'sans-serif;
+  background-color: aqua;
+  margin: 10px;
+ }
